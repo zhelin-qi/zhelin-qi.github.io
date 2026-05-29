@@ -1,0 +1,86 @@
+---
+title: "Dimension of Leachies"
+subtitle: "A reptile hobby studio dedicated to leachianus geckos and lizards"
+toc: true
+---
+
+## What is Dimension of Leachies?
+
+**Dimension of Leachies (巨人维度)** is my personal reptile hobby studio focused on keeping, studying, and sharing knowledge about *Rhacodactylus leachianus* — the **leachianus gecko**, or "leachie" — the largest gecko species in the world. The studio also works with a variety of other lizard species.
+
+The name reflects both the impressive size of these animals ("giant" in Chinese: 巨人) and the layered, complex world of reptile keeping.
+
+
+---
+
+## The animals
+
+### Rhacodactylus leachianus — Leachianus gecko
+
+Leachianus geckos are native to New Caledonia, a group of islands in the South Pacific. They are nocturnal, arboreal animals that can live for 20+ years in captivity. They're known for their:
+
+- **Impressive size** — adults reach 25–35 cm and can weigh over 150g
+- **Vocalizations** — they produce growls, barks, and hisses unlike any other gecko
+- **Personality** — each animal has a distinct temperament, from docile to feisty
+- **Stunning morphs** — a wide range of natural color and pattern variations
+
+
+### Other species
+
+In addition to leachies, the studio works with several other lizard species, including:
+
+- **Crested geckos** (*Correlophus ciliatus*)
+- **Gargoyle geckos** (*Rhacodactylus auriculatus*)
+- **Other New Caledonian species**
+
+---
+
+## Husbandry philosophy
+
+At Dimension of Leachies, I prioritize **animal welfare above all else**. This means:
+
+- Providing enclosures that mimic natural habitat in size, structure, and climate
+- Feeding high-quality, varied diets
+- Minimizing unnecessary handling stress
+- Sourcing animals from reputable, ethical breeders
+
+I believe that good husbandry is rooted in understanding the ecology of the animals in their native environment.
+
+
+---
+
+## Interactive: Leachianus gecko range map
+
+The map below shows the native range of *Rhacodactylus leachianus* in New Caledonia.
+
+```{r map, message=FALSE, warning=FALSE, echo=FALSE}
+library(leaflet)
+
+# New Caledonia coordinates
+leaflet() |>
+  addTiles() |>
+  setView(lng = 165.6, lat = -21.3, zoom = 7) |>
+  addCircleMarkers(
+    lng = 165.6, lat = -21.3,
+    radius = 20,
+    color = "#a8d8a8",
+    fillOpacity = 0.4,
+    popup = "Native range of Rhacodactylus leachianus — New Caledonia"
+  ) |>
+  addCircleMarkers(
+    lng = 167.9, lat = -22.1,
+    radius = 10,
+    color = "#a8d8a8",
+    fillOpacity = 0.3,
+    popup = "Isle of Pines — home to the giant leachie (R. l. leachianus)"
+  )
+```
+
+---
+
+## Get in touch
+
+Interested in leachianus geckos or have questions about reptile keeping? Feel free to reach out!
+
+- 📧 Email: zhelin5258@gmail.com
+- 🐙 GitHub: [zhelin-qi](https://github.com/zhelin-qi)

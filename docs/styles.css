@@ -1,0 +1,92 @@
+/* Custom styles for Zhelin Qi's website */
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400&display=swap');
+
+/* Body and base */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #a8d8a8 !important;
+}
+
+/* Accent color - soft green */
+a {
+  color: #a8d8a8;
+}
+
+a:hover {
+  color: #c8e8c8;
+}
+
+/* Landing page hero */
+.hero-section {
+  padding: 4rem 0 2rem 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #a8d8a8;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Profile photo */
+.profile-photo {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid #a8d8a8;
+  margin-bottom: 1.5rem;
+}
+
+/* Cards */
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Section dividers */
+hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Code blocks */
+pre {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+/* Footer */
+.nav-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  opacity: 0.6;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,36 @@
+---
+title: "About Me"
+---
+
+## Who I am
+
+I'm Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I'm interested in the intersection of ecology, data science, and conservation. When I'm not crunching data in R, I'm taking care of my leachianus geckos and other reptiles, or exploring the natural landscapes around Santa Barbara.
+
+---
+
+## Education
+
+**University of California, Santa Barbara**
+B.S. Environmental Studies *(in progress)*
+
+I've developed skills in environmental data analysis, statistics, and science communication. I use R, Quarto, and GitHub as core tools in my workflow.
+
+---
+
+## Research experience
+
+I've had the opportunity to work in two very different research settings:
+
+**Yongjiang Laboratory — Inorganic Silica Synthesis**
+I interned in an inorganic chemistry research lab focused on the synthesis and preparation of oxidized silica materials. This experience gave me hands-on lab skills and an appreciation for materials science at the intersection of chemistry and environmental applications.
+
+**UCSB Oceanography Laboratory**
+I worked as an intern in UCSB's Oceanography Lab, where I was exposed to marine science research methods, data collection, and the study of ocean ecosystems. This experience deepened my interest in environmental data and coastal ecology.
+
+---
+
+## Outside of academics
+
+Beyond research and coursework, I'm passionate about exotic reptile keeping. I founded **Dimension of Leachies**, a hobby studio focused on leachianus geckos (*Rhacodactylus leachianus*) — the world's largest gecko species. Caring for these animals has taught me a lot about biology, animal husbandry, and the responsibility that comes with keeping rare species.
+
+I'm also interested in photography, hiking the Santa Barbara backcountry, and exploring the local food scene.

@@ -1,0 +1,69 @@
+---
+title: "Resume"
+toc: false
+---
+
+## Zhelin Qi
+
+📧 zhelin5258@gmail.com · 🐙 [github.com/zhelin-qi](https://github.com/zhelin-qi)
+
+---
+
+## Education
+
+**University of California, Santa Barbara** *(in progress)*
+B.S. Environmental Studies
+
+Relevant coursework: Environmental Data Science (ENVS 193DS), Ecology, Marine Science, Statistics
+
+---
+
+## Research Experience
+
+**Intern — Inorganic Silica Synthesis Lab**
+*Yongjiang Laboratory*
+
+- Assisted in the synthesis and preparation of inorganic oxidized silica materials
+- Performed laboratory procedures including sample preparation, characterization, and data recording
+- Developed skills in lab safety, materials handling, and experimental documentation
+
+**Intern — Oceanography Laboratory**
+*UC Santa Barbara*
+
+- Supported ongoing marine science research in UCSB's Oceanography Lab
+- Assisted with data collection, sample processing, and field/lab methods
+- Gained experience in ocean ecosystem research and environmental data workflows
+
+---
+
+## Projects
+
+**Personal Quarto Website** · [zhelin-qi.github.io](https://zhelin-qi.github.io)
+Built a personal website using Quarto, R, and GitHub Pages, showcasing data analysis projects and personal interests.
+
+**Giant Kelp Temperature Analysis** · ENVS 193DS
+Analyzed the relationship between ocean temperature and kelp frond elongation rate using Pearson and Spearman correlation in R.
+
+**Personal Data Collection & Visualization** · ENVS 193DS
+Designed and executed a 6-week personal data collection project tracking dog play sessions, analyzed with ggplot2 in R.
+
+---
+
+## Skills
+
+**Technical:** R, Quarto, GitHub, ggplot2, tidyverse, data visualization, statistical analysis
+
+**Laboratory:** Sample preparation, materials synthesis, data documentation, lab safety
+
+**Languages:** English, Mandarin Chinese
+
+---
+
+## Other Experience
+
+**Founder — Dimension of Leachies (巨人维度)**
+*Personal reptile hobby studio*
+
+- Founded and manage a reptile keeping studio specializing in leachianus geckos (*Rhacodactylus leachianus*)
+- Developed expertise in animal husbandry, habitat design, and species biology
+- Responsible for all aspects of animal care, health monitoring, and enclosure maintenance

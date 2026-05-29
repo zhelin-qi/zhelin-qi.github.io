@@ -1,0 +1,88 @@
+---
+title: "What makes my dog happiest? A personal data project"
+date: "2026-05-28"
+categories: [R, personal data, data visualization]
+description: "Tracking my dog's daily play sessions over 6 weeks to explore what conditions — playtime duration, leash status, weather — best predict his satisfaction."
+---
+
+## The question
+
+As a dog owner, I've always wondered: what actually makes my dog most satisfied after a play session? Is it how long we play, whether he's off-leash, or something else entirely?
+
+To find out, I collected 42 days of data on my dog's daily play sessions from April 17 to May 28, 2026, recording variables like playtime duration, leash status, weather, temperature, and my subjective rating of his satisfaction (1–5 scale) after each session.
+
+---
+
+## The data
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(here)
+library(janitor)
+
+# read in personal dog data
+dog <- read_csv(here("data", "dog_satisfaction_data.csv"), skip = 3) |>
+  clean_names() |>
+  filter(!is.na(date))
+
+glimpse(dog)
+```
+
+---
+
+## Does leash status affect satisfaction?
+
+```{r leash-plot, message=FALSE, warning=FALSE}
+dog |>
+  drop_na(leash_status, dog_satisfaction_level_1_5) |>
+  ggplot(aes(
+    x = leash_status,
+    y = dog_satisfaction_level_1_5,
+    fill = leash_status
+  )) +
+  geom_boxplot(alpha = 0.6, outlier.shape = NA) +
+  geom_jitter(width = 0.12, height = 0.05, alpha = 0.7, size = 2) +
+  scale_fill_manual(values = c("Off-leash" = "#a8d8a8", "On-leash" = "#F4A261")) +
+  labs(
+    x = "Leash status",
+    y = "Dog satisfaction level (1–5)",
+    subtitle = "Off-leash sessions are consistently more satisfying"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+Off-leash sessions tend to produce higher and more consistent satisfaction scores. On-leash sessions show more variability, likely because other factors (playtime duration, weather) matter more when freedom is restricted.
+
+---
+
+## Does playtime duration matter?
+
+```{r playtime-plot, message=FALSE, warning=FALSE}
+dog |>
+  drop_na(playtime_minutes, dog_satisfaction_level_1_5) |>
+  ggplot(aes(
+    x = playtime_minutes,
+    y = dog_satisfaction_level_1_5,
+    color = leash_status
+  )) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  geom_smooth(method = "lm", se = FALSE, color = "grey60", linetype = "dashed") +
+  scale_color_manual(
+    values = c("Off-leash" = "#a8d8a8", "On-leash" = "#F4A261"),
+    name = "Leash status"
+  ) +
+  labs(
+    x = "Daily playtime (minutes)",
+    y = "Dog satisfaction level (1–5)",
+    subtitle = "Longer playtime is associated with higher satisfaction"
+  ) +
+  theme_classic() +
+  theme(legend.position = c(0.8, 0.25))
+```
+
+---
+
+## What I learned
+
+Both leash status and playtime duration are positively associated with my dog's satisfaction. The data suggest that the best recipe for a happy dog is a long, off-leash session — ideally with other dogs present. This project taught me that personal data collection, even on something as simple as dog walks, can reveal meaningful patterns when collected consistently.

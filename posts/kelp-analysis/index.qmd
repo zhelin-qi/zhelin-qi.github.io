@@ -1,0 +1,85 @@
+---
+title: "Does ocean temperature affect giant kelp growth?"
+date: "2026-05-28"
+categories: [R, data analysis, marine ecology]
+description: "Using Pearson and Spearman correlation to test the relationship between ocean temperature and giant kelp frond elongation rate."
+---
+
+## Background
+
+Giant kelp (*Macrocystis pyrifera*) forests are among the most productive ecosystems on Earth, providing habitat and food for hundreds of species. As ocean temperatures rise due to climate change, understanding how temperature affects kelp growth is critical for predicting the future of these ecosystems.
+
+In this project, I analyzed the relationship between ocean temperature (°C) and giant kelp frond elongation rate (cm day⁻¹) using correlation analysis.
+
+---
+
+## The data
+
+The dataset contains 32 observations of ocean temperature and kelp elongation rate from a field study.
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(here)
+
+# read in kelp data
+kelp <- read_csv(here("data", "temp-kelp.csv"))
+
+# preview the data
+head(kelp)
+```
+
+---
+
+## Visualization
+
+```{r kelp-plot, message=FALSE, warning=FALSE}
+ggplot(
+  data = kelp,
+  aes(x = temp_c, y = kelp_elong)
+) +
+  geom_point(color = "#a8d8a8", size = 2.5, alpha = 0.8) +
+  geom_smooth(
+    method = "lm", se = TRUE,
+    color = "#E76F51", fill = "#E76F5133"
+  ) +
+  labs(
+    x = "Ocean temperature (°C)",
+    y = expression("Kelp elongation rate (cm day"^{-1}*")")
+  ) +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill = "transparent"),
+    plot.background = element_rect(fill = "transparent")
+  )
+```
+
+The scatterplot shows a clear **negative relationship**: as temperature increases, kelp grows more slowly.
+
+---
+
+## Statistical test
+
+I used **Pearson's correlation coefficient** because both variables are approximately normally distributed (Shapiro-Wilk p > 0.05) and the relationship appears linear.
+
+```{r pearson, message=FALSE, warning=FALSE}
+# Pearson's correlation
+kelp_pearson <- cor.test(
+  x = kelp$temp_c,
+  y = kelp$kelp_elong,
+  method = "pearson"
+)
+
+kelp_pearson
+```
+
+---
+
+## Results
+
+There was a significant negative correlation between ocean temperature and kelp frond elongation rate (Pearson's r = `r round(kelp_pearson$estimate, 2)`, p = `r round(kelp_pearson$p.value, 4)`). This means that as ocean temperatures increase, kelp grows more slowly — a concerning finding in the context of climate-driven ocean warming.
+
+---
+
+## Why does this matter?
+
+Kelp forests support thousands of species. Slower kelp growth means less habitat and food availability for fish, invertebrates, and marine mammals. As the ocean continues to warm, we may see significant declines in kelp forest health and extent along the California coast.
