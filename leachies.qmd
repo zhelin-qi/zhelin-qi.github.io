@@ -1,62 +1,104 @@
 ---
 title: "Dimension of Leachies"
-subtitle: "A reptile hobby studio dedicated to leachianus geckos and lizards"
+subtitle: "巨人维度 — A reptile studio dedicated to leachianus gecko breeding and line development"
 toc: true
 ---
 
-## What is Dimension of Leachies?
+## About the Studio
 
-**Dimension of Leachies (巨人维度)** is my personal reptile hobby studio focused on keeping, studying, and sharing knowledge about *Rhacodactylus leachianus* — the **leachianus gecko**, or "leachie" — the largest gecko species in the world. The studio also works with a variety of other lizard species.
+::: {layout-ncol=2}
+![](images/logo.jpg){width=100%}
 
-The name reflects both the impressive size of these animals ("giant" in Chinese: 巨人) and the layered, complex world of reptile keeping.
+**Dimension of Leachies (巨人维度)** was founded in 2020 with a focus on the breeding and selective development of *Rhacodactylus leachianus* — the **leachianus gecko**, the largest gecko species in the world. The studio is dedicated to producing higher-quality breeding lines and advancing the genetics of this remarkable species.
 
-
----
-
-## The animals
-
-### Rhacodactylus leachianus — Leachianus gecko
-
-Leachianus geckos are native to New Caledonia, a group of islands in the South Pacific. They are nocturnal, arboreal animals that can live for 20+ years in captivity. They're known for their:
-
-- **Impressive size** — adults reach 25–35 cm and can weigh over 150g
-- **Vocalizations** — they produce growls, barks, and hisses unlike any other gecko
-- **Personality** — each animal has a distinct temperament, from docile to feisty
-- **Stunning morphs** — a wide range of natural color and pattern variations
-
-
-### Other species
-
-In addition to leachies, the studio works with several other lizard species, including:
-
-- **Crested geckos** (*Correlophus ciliatus*)
-- **Gargoyle geckos** (*Rhacodactylus auriculatus*)
-- **Other New Caledonian species**
+Over the years, the studio has developed multiple distinct breeding lines, each selected for specific color patterns, body structure, and temperament.
+:::
 
 ---
 
-## Husbandry philosophy
+## The Animals — Rhacodactylus leachianus
 
-At Dimension of Leachies, I prioritize **animal welfare above all else**. This means:
+Leachianus geckos are native to New Caledonia in the South Pacific. They are nocturnal, arboreal animals known for their impressive size (adults reach 25–35 cm), unique vocalizations (growls, barks, hisses), and remarkable color variation.
 
-- Providing enclosures that mimic natural habitat in size, structure, and climate
-- Feeding high-quality, varied diets
-- Minimizing unnecessary handling stress
-- Sourcing animals from reputable, ethical breeders
+![](images/leachie2.jpg){width=70% fig-align="center"}
 
-I believe that good husbandry is rooted in understanding the ecology of the animals in their native environment.
-
+*A leachianus gecko showing its characteristic posture and scale texture.*
 
 ---
 
-## Interactive: Leachianus gecko range map
+## Breeding Lines
 
-The map below shows the native range of *Rhacodactylus leachianus* in New Caledonia.
+### SHCGL — Super High Color Giant Line
+
+The SHCGL line is selected for exceptionally vibrant coloration combined with large body size. Animals in this line display rich pink, orange, and green tones with high contrast patterning.
+
+![](images/shcgl.jpg){width=80% fig-align="center"}
+
+*Two SHCGL individuals showing the characteristic high-contrast pink and green coloration.*
+
+---
+
+### Swirl Line
+
+The Swirl line is selected for a distinctive swirling pattern across the dorsum. These animals show a blend of earth tones with flowing, irregular markings that give each individual a unique appearance.
+
+![](images/swirl.jpg){width=80% fig-align="center"}
+
+*Two Swirl line individuals showing the characteristic flowing pattern.*
+
+---
+
+### Goro Line — Melanistic Straight Line
+
+The Goro line focuses on high melanin expression, producing animals with deep brown to near-black base coloration with subtle lighter spotting. This line is one of the most visually striking in the collection.
+
+![](images/goro.jpg){width=80% fig-align="center"}
+
+*Two Goro line individuals displaying the characteristic dark, melanistic coloration.*
+
+---
+
+### Darth Maul Line
+
+Named for its bold red-on-black patterning, the Darth Maul line is selected for deep red blotches against a dark background. These animals are among the most sought-after in the collection.
+
+![](images/darthmual.jpg){width=80% fig-align="center"}
+
+*Two Darth Maul line individuals showing the signature red-on-dark coloration.*
+
+---
+
+## The Collection
+
+The studio currently maintains dozens of individuals across multiple breeding lines, spanning juveniles to proven adult pairs.
+
+![](images/collection.jpg){width=80% fig-align="center"}
+
+*A group of leachianus geckos from various lines in the collection.*
+
+---
+
+## The Facility
+
+The studio is purpose-built for leachianus keeping, with individually labeled enclosures for each animal, climate control, and naturalistic cork tube hides that mimic the hollow trees these geckos use in the wild.
+
+::: {layout-ncol=2}
+![](images/studio1.jpg)
+
+![](images/studio2.jpg)
+:::
+
+*The studio facility, housing over 100 individual enclosures with climate-controlled conditions.*
+
+---
+
+## Interactive: Native Range Map
+
+The map below shows the native range of *Rhacodactylus leachianus* in New Caledonia, the island group where all leachianus geckos originate.
 
 ```{r map, message=FALSE, warning=FALSE, echo=FALSE}
 library(leaflet)
 
-# New Caledonia coordinates
 leaflet() |>
   addTiles() |>
   setView(lng = 165.6, lat = -21.3, zoom = 7) |>
@@ -78,9 +120,9 @@ leaflet() |>
 
 ---
 
-## Get in touch
+## Contact
 
-Interested in leachianus geckos or have questions about reptile keeping? Feel free to reach out!
+Interested in leachianus geckos or have questions about the studio?
 
 - 📧 Email: zhelin5258@gmail.com
 - 🐙 GitHub: [zhelin-qi](https://github.com/zhelin-qi)
