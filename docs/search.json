@@ -18,7 +18,7 @@
     "href": "resume.html#education",
     "title": "Resume",
     "section": "Education",
-    "text": "Education\nUniversity of California, Santa Barbara (in progress) B.S. Environmental Studies\nRelevant coursework: Environmental Data Science (ENVS 193DS), Ecology, Marine Science, Statistics"
+    "text": "Education\nUniversity of California, Santa Barbara (in progress) B.S. Environmental Studies\nRelevant coursework: Environmental Data Science (ENVS 193DS), Environmental Field Methods (ENVS 153), Ecology, Marine Science, Statistics"
   },
   {
     "objectID": "resume.html#research-experience",
@@ -32,21 +32,21 @@
     "href": "resume.html#projects",
     "title": "Resume",
     "section": "Projects",
-    "text": "Projects\nPersonal Quarto Website · zhelin-qi.github.io Built a personal website using Quarto, R, and GitHub Pages, showcasing data analysis projects and personal interests.\nGiant Kelp Temperature Analysis · ENVS 193DS Analyzed the relationship between ocean temperature and kelp frond elongation rate using Pearson and Spearman correlation in R.\nPersonal Data Collection & Visualization · ENVS 193DS Designed and executed a 6-week personal data collection project tracking dog play sessions, analyzed with ggplot2 in R."
+    "text": "Projects\nPersonal Quarto Website · zhelin-qi.github.io Built a personal website using Quarto, R, and GitHub Pages, showcasing data analysis projects and personal interests.\nSpring Seasonal Change at Campus Point · ENVS 153 Led 8-week field observations tracking plant phenology, pollinator abundance, and bird species richness at UCSB’s Campus Point lagoon. Analyzed and visualized trends in R.\nGiant Kelp Temperature Analysis · ENVS 193DS Analyzed the relationship between ocean temperature and kelp frond elongation rate using Pearson and Spearman correlation in R.\nPersonal Data Collection & Visualization · ENVS 193DS Designed and executed a 6-week personal data collection project tracking dog play sessions, analyzed with ggplot2 in R."
   },
   {
     "objectID": "resume.html#skills",
     "href": "resume.html#skills",
     "title": "Resume",
     "section": "Skills",
-    "text": "Skills\nTechnical: R, Quarto, GitHub, ggplot2, tidyverse, data visualization, statistical analysis\nLaboratory: Sample preparation, materials synthesis, data documentation, lab safety\nLanguages: English, Mandarin Chinese"
+    "text": "Skills\nTechnical: R, Quarto, GitHub, ggplot2, tidyverse, data visualization, statistical analysis\nLaboratory: Inorganic materials synthesis, sample preparation, characterization, lab safety, precision measurement\nField: Ecological observation, species identification (plants, birds, insects), field data collection\nLanguages: English, Mandarin Chinese"
   },
   {
     "objectID": "resume.html#other-experience",
     "href": "resume.html#other-experience",
     "title": "Resume",
     "section": "Other Experience",
-    "text": "Other Experience\nFounder — Dimension of Leachies (巨人维度) Personal reptile hobby studio\n\nFounded and manage a reptile keeping studio specializing in leachianus geckos (Rhacodactylus leachianus)\nDeveloped expertise in animal husbandry, habitat design, and species biology\nResponsible for all aspects of animal care, health monitoring, and enclosure maintenance"
+    "text": "Other Experience\nFounder — Dimension of Leachies (巨人维度) Personal reptile hobby studio, founded 2020\n\nFounded and manage a reptile keeping studio specializing in leachianus geckos (Rhacodactylus leachianus)\nDeveloped and maintain multiple selective breeding lines (SHCGL, Swirl, Goro, Darth Maul)\nResponsible for all aspects of animal care, health monitoring, enclosure design, and line documentation"
   },
   {
     "objectID": "posts/kelp-analysis/index.html",
@@ -355,5 +355,12 @@
     "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
     "section": "Key Takeaways",
     "text": "Key Takeaways\nThis project gave me a firsthand look at how seasonal change drives cascading ecological effects — from plant phenology to insect activity to bird diversity. Watching the site transform week by week, from lush green vegetation in early spring to dry, seed-heavy grasses by late May, made abstract ecological concepts tangible. It also reinforced the impact of invasive species: Wild Radish and Great Brome consistently dominated the site, shaping the resources available to every other organism present."
+  },
+  {
+    "objectID": "resume.html#research-internship-experience",
+    "href": "resume.html#research-internship-experience",
+    "title": "Resume",
+    "section": "Research & Internship Experience",
+    "text": "Research & Internship Experience\n\nInorganic Silica Synthesis Intern\nYongjiang Laboratory (甬江实验室) — Inorganic Silicon Oxide Material Controllable Preparation Research Center\n\n\n\n\n\n\n\n\n\n\n\nAssisted in the synthesis and preparation of nano- and micro-scale inorganic oxidized silica materials\nSupported research focused on applications in semiconductor CMP, chip packaging, 5G materials, and pharmaceutical purification\nPerformed laboratory procedures including sample preparation, characterization, and experimental documentation\nDeveloped hands-on skills in materials chemistry, lab safety, and precision measurement\n\n\n\n\nMarine Science Intern\nUCSB Oceanography Laboratory\n\n\n\n\n\n\n\n\n\n\n\nSupported ongoing marine science research at UCSB’s Oceanography Lab\nAssisted with data collection, sample processing, and field/lab methods in coastal marine environments\nGained experience in ocean ecosystem research and environmental data workflows"
   }
 ]
