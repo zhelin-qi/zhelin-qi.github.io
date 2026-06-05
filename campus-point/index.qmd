@@ -5,6 +5,35 @@ categories: [field study, ecology, data collection, ENVS 153]
 description: "An 8-week field observation study tracking seasonal changes in plants, pollinators, and bird species richness at UCSB's Campus Point lagoon."
 ---
 
+```{r setup, message=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+library(janitor)
+library(here)
+
+# read in group 6 observation data
+observations_raw <- read_csv(
+  here("data", "group6_observations.csv"),
+  col_names = c(
+    "group_number", "location_n", "location_w", "date", "week_number",
+    "max_temp", "min_temp", "precip", "plant_species", "common_name_plant",
+    "flower_head_count", "bird_species", "insect_species", "insect_common_name",
+    "flowering_stage_wild_radish", "great_brome_seeding_percent",
+    "humidity", "tadpole_presence", "abundancy_of_pollinators", "algae_coverage_percent"
+  ),
+  skip = 1
+)
+
+# clean and fill down week/date info
+observations_clean <- observations_raw |>
+  fill(group_number, location_n, location_w, date, week_number, .direction = "down") |>
+  mutate(
+    week_number = as.numeric(week_number),
+    algae_coverage_percent = as.numeric(algae_coverage_percent),
+    great_brome_seeding_percent = suppressWarnings(as.numeric(great_brome_seeding_percent)),
+    flower_head_count = suppressWarnings(as.numeric(flower_head_count))
+  )
+```
+
 ## Overview
 
 As part of ENVS 153 at UC Santa Barbara, our team conducted an 8-week field study tracking spring seasonal changes in vegetation, pollinators, and bird diversity at **Campus Point** — a coastal sage scrub and grassland site located next to Campus Point Beach, adjacent to UCSB's Cheadle Center restoration area.
@@ -54,17 +83,99 @@ Every Thursday at 1:00 PM over 8 weeks, we visited the same site and recorded:
 
 ## Results
 
-### Bird Species Richness
+### Algae Coverage Over Time
 
-Bird species richness increased from **2 species in Week 1 to 10 species by Week 8**, with a strong positive trend (R² = 0.8). Seasonal vegetation growth and increased flower availability likely supported greater bird diversity over time.
+```{r algae-plot, message=FALSE, warning=FALSE, echo=FALSE, fig.height=4, fig.width=5}
+algae_data <- observations_clean |>
+  select(week_number, algae_coverage_percent) |>
+  drop_na(algae_coverage_percent) |>
+  distinct(week_number, .keep_all = TRUE)
 
-### Plant Flower and Seed Counts
+ggplot(algae_data, aes(x = week_number, y = algae_coverage_percent)) +
+  geom_point(size = 3, alpha = 0.8, color = "darkgreen") +
+  geom_smooth(method = "lm", se = FALSE, color = "white") +
+  labs(x = "Observation week", y = "Algae coverage (%)") +
+  theme_classic() +
+  theme(
+    plot.background = element_rect(fill = "transparent", color = NA),
+    panel.background = element_rect(fill = "transparent", color = NA)
+  )
+```
 
-Wild Radish dominated early in the season, peaking in **Week 4** with over 400 flower/seed heads, before declining sharply. Great Brome increased gradually through mid-season. Invasive species abundance consistently exceeded native species counts, which matched our prediction that non-native annuals would dominate as the season progressed.
+Algae coverage ranged from 10% in Week 1 to a peak of 27% in Week 6, showing a general increasing trend through mid-season.
 
-### Pollinator Abundance
+---
 
-Pollinator counts followed the flowering pattern closely — abundance increased as Wild Radish bloomed, peaked in **Week 7 at 13 pollinators per 5 minutes**, then declined in Week 8 as flowers senesced. Pollinators observed included Western Honeybees, cabbage white butterflies, and hummingbirds.
+### Pollinator Abundance Over Time
+
+```{r pollinator-plot, message=FALSE, warning=FALSE, echo=FALSE, fig.height=4, fig.width=5}
+pollinator_data <- tibble(
+  week_number = 1:8,
+  pollinators_per_5_min = c(1, 4, 5, 7, 11, 9, 13, 2)
+)
+
+ggplot(pollinator_data, aes(x = week_number, y = pollinators_per_5_min)) +
+  geom_point(size = 3, alpha = 0.8, color = "mediumpurple") +
+  geom_smooth(method = "lm", se = FALSE, color = "white") +
+  labs(x = "Observation week", y = "Pollinators observed per 5 minutes") +
+  theme_classic() +
+  theme(
+    plot.background = element_rect(fill = "transparent", color = NA),
+    panel.background = element_rect(fill = "transparent", color = NA)
+  )
+```
+
+Pollinator abundance peaked at **13 per 5 minutes in Week 7**, then dropped sharply to 2 in Week 8 as flowers senesced. Pollinators observed included Western Honeybees, cabbage white butterflies, and hummingbirds.
+
+---
+
+### Great Brome Seeding Percentage
+
+```{r brome-plot, message=FALSE, warning=FALSE, echo=FALSE, fig.height=4, fig.width=5}
+great_brome_data <- observations_clean |>
+  filter(common_name_plant == "Ripgut Brome/ Great Brome") |>
+  select(week_number, great_brome_seeding_percent) |>
+  drop_na(great_brome_seeding_percent)
+
+ggplot(great_brome_data, aes(x = week_number, y = great_brome_seeding_percent)) +
+  geom_point(size = 3, alpha = 0.8, color = "darkorange") +
+  geom_smooth(method = "lm", se = FALSE, color = "white") +
+  labs(x = "Observation week", y = "Great brome seeding (%)") +
+  theme_classic() +
+  theme(
+    plot.background = element_rect(fill = "transparent", color = NA),
+    panel.background = element_rect(fill = "transparent", color = NA)
+  )
+```
+
+Great Brome seeding percentage declined from 70% in Week 2 to just 1% by Week 8, marking the completion of its reproductive cycle.
+
+---
+
+### Flower and Seed Head Counts by Plant Species
+
+```{r plant-plot, message=FALSE, warning=FALSE, echo=FALSE, fig.height=4, fig.width=6}
+plant_count_data <- observations_clean |>
+  filter(!is.na(common_name_plant)) |>
+  drop_na(flower_head_count)
+
+ggplot(plant_count_data, aes(x = week_number, y = flower_head_count, color = common_name_plant)) +
+  geom_point(size = 3, alpha = 0.8) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    x = "Observation week",
+    y = "Flower or seed head count",
+    color = "Plant species"
+  ) +
+  theme_classic() +
+  theme(
+    plot.background = element_rect(fill = "transparent", color = NA),
+    panel.background = element_rect(fill = "transparent", color = NA),
+    legend.background = element_rect(fill = "transparent", color = NA)
+  )
+```
+
+Wild Radish dominated early in the season, peaking at over **436 flower/seed heads in Week 4** before declining sharply. Invasive species consistently outnumbered native species throughout the observation period.
 
 ---
 
