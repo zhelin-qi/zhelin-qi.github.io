@@ -242,7 +242,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "What makes my dog happiest? A personal data project\n\n\n\nR\n\npersonal data\n\ndata visualization\n\n\n\nTracking my dog’s daily play sessions over 6 weeks to explore what conditions — playtime duration, leash status, weather — best predict his satisfaction.\n\n\n\n\n\nMay 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDoes ocean temperature affect giant kelp growth?\n\n\n\nR\n\ndata analysis\n\nmarine ecology\n\n\n\nUsing Pearson and Spearman correlation to test the relationship between ocean temperature and giant kelp frond elongation rate.\n\n\n\n\n\nMay 28, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study\n\n\n\nfield study\n\necology\n\ndata collection\n\nENVS 153\n\n\n\nAn 8-week field observation study tracking seasonal changes in plants, pollinators, and bird species richness at UCSB’s Campus Point lagoon.\n\n\n\n\n\nMay 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWhat makes my dog happiest? A personal data project\n\n\n\nR\n\npersonal data\n\ndata visualization\n\n\n\nTracking my dog’s daily play sessions over 6 weeks to explore what conditions — playtime duration, leash status, weather — best predict his satisfaction.\n\n\n\n\n\nMay 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDoes ocean temperature affect giant kelp growth?\n\n\n\nR\n\ndata analysis\n\nmarine ecology\n\n\n\nUsing Pearson and Spearman correlation to test the relationship between ocean temperature and giant kelp frond elongation rate.\n\n\n\n\n\nMay 28, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "leachies.html#about-the-studio",
@@ -362,5 +362,54 @@
     "title": "Resume",
     "section": "Research & Internship Experience",
     "text": "Research & Internship Experience\n\nInorganic Silica Synthesis Intern\nYongjiang Laboratory (甬江实验室) — Inorganic Silicon Oxide Material Controllable Preparation Research Center\n\n\n\n\n\n\n\n\n\n\n\nAssisted in the synthesis and preparation of nano- and micro-scale inorganic oxidized silica materials\nSupported research focused on applications in semiconductor CMP, chip packaging, 5G materials, and pharmaceutical purification\nPerformed laboratory procedures including sample preparation, characterization, and experimental documentation\nDeveloped hands-on skills in materials chemistry, lab safety, and precision measurement\n\n\n\n\nMarine Science Intern\nUCSB Oceanography Laboratory\n\n\n\n\n\n\n\n\n\n\n\nSupported ongoing marine science research at UCSB’s Oceanography Lab\nAssisted with data collection, sample processing, and field/lab methods in coastal marine environments\nGained experience in ocean ecosystem research and environmental data workflows"
+  },
+  {
+    "objectID": "posts/campus-point/index.html",
+    "href": "posts/campus-point/index.html",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "",
+    "text": "As part of ENVS 153 at UC Santa Barbara, our team conducted an 8-week field study tracking spring seasonal changes in vegetation, pollinators, and bird diversity at Campus Point — a coastal sage scrub and grassland site located next to Campus Point Beach, adjacent to UCSB’s Cheadle Center restoration area.\nTeam: Izzy Ribondo, Yaasiel Leos, and Zhelin Qi\nLocation: UCSB Campus Lagoon, Goleta, CA (34°24’22.7”N, 119°50’39.8”W)"
+  },
+  {
+    "objectID": "posts/campus-point/index.html#overview",
+    "href": "posts/campus-point/index.html#overview",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "",
+    "text": "As part of ENVS 153 at UC Santa Barbara, our team conducted an 8-week field study tracking spring seasonal changes in vegetation, pollinators, and bird diversity at Campus Point — a coastal sage scrub and grassland site located next to Campus Point Beach, adjacent to UCSB’s Cheadle Center restoration area.\nTeam: Izzy Ribondo, Yaasiel Leos, and Zhelin Qi\nLocation: UCSB Campus Lagoon, Goleta, CA (34°24’22.7”N, 119°50’39.8”W)"
+  },
+  {
+    "objectID": "posts/campus-point/index.html#why-campus-point",
+    "href": "posts/campus-point/index.html#why-campus-point",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Why Campus Point?",
+    "text": "Why Campus Point?\nWe chose this site because of its rich ecological diversity and its position at the edge of the lagoon ecosystem. It offered:\n\nHigh abundance of Wild Radish (Raphanus sativus) and Great Brome (Bromus diandrus) for tracking non-native plant changes\nPresence of birds, pollinators, and lagoon wildlife\nProximity to the Cheadle Center coastal restoration area\nA mix of native and non-native species expected to show rapid seasonal change through spring\n\nA native Torrey Pine (Pinus torreyana) — one of North America’s rarest pine species — was also present at the site, supporting lichen growth and hummingbird nesting."
+  },
+  {
+    "objectID": "posts/campus-point/index.html#research-questions",
+    "href": "posts/campus-point/index.html#research-questions",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Research Questions",
+    "text": "Research Questions\nWe investigated three main questions:\nQ1: How does native and non-native vegetation change throughout the season near the lagoon at UCSB?\nQ2: How does the increase in flowering plants affect pollinator abundance and activity near Campus Point?\nQ3: How did bird species richness change throughout spring at Campus Point?"
+  },
+  {
+    "objectID": "posts/campus-point/index.html#methods",
+    "href": "posts/campus-point/index.html#methods",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Methods",
+    "text": "Methods\nEvery Thursday at 1:00 PM over 8 weeks, we visited the same site and recorded:\n\nTemperature, weather, and site conditions\nBird species (identified with Merlin Bird ID)\nPlant species and flower/seed counts (identified with Seek and iNaturalist)\n5-minute pollinator surveys\nPhotos and timelapse documentation of site change"
+  },
+  {
+    "objectID": "posts/campus-point/index.html#results",
+    "href": "posts/campus-point/index.html#results",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Results",
+    "text": "Results\n\nAlgae Coverage Over Time\n\n\n\n\n\n\n\n\n\nAlgae coverage ranged from 10% in Week 1 to a peak of 27% in Week 6, showing a general increasing trend through mid-season.\n\n\n\nPollinator Abundance Over Time\n\n\n\n\n\n\n\n\n\nPollinator abundance peaked at 13 per 5 minutes in Week 7, then dropped sharply to 2 in Week 8 as flowers senesced. Pollinators observed included Western Honeybees, cabbage white butterflies, and hummingbirds.\n\n\n\nGreat Brome Seeding Percentage\n\n\n\n\n\n\n\n\n\nGreat Brome seeding percentage declined from 70% in Week 2 to just 1% by Week 8, marking the completion of its reproductive cycle.\n\n\n\nFlower and Seed Head Counts by Plant Species\n\n\n\n\n\n\n\n\n\nWild Radish dominated early in the season, peaking at over 436 flower/seed heads in Week 4 before declining sharply. Invasive species consistently outnumbered native species throughout the observation period."
+  },
+  {
+    "objectID": "posts/campus-point/index.html#key-takeaways",
+    "href": "posts/campus-point/index.html#key-takeaways",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nThis project gave me a firsthand look at how seasonal change drives cascading ecological effects — from plant phenology to insect activity to bird diversity. Watching the site transform week by week, from lush green vegetation in early spring to dry, seed-heavy grasses by late May, made abstract ecological concepts tangible. It also reinforced the impact of invasive species: Wild Radish and Great Brome consistently dominated the site, shaping the resources available to every other organism present."
   }
 ]
