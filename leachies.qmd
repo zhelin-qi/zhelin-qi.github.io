@@ -62,7 +62,7 @@ The Goro line focuses on high melanin expression, producing animals with deep br
 
 Named for its bold red-on-black patterning, the Darth Maul line is selected for deep red blotches against a dark background. These animals are among the most sought-after in the collection.
 
-![](images/darthmual.jpg){width=80% fig-align="center"}
+![](images/darthmaul.jpg){width=80% fig-align="center"}
 
 *Two Darth Maul line individuals showing the signature red-on-dark coloration.*
 
