@@ -144,14 +144,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I’m interested in the intersection of ecology, data science, and conservation. When I’m not crunching data in R, I’m taking care of my leachianus geckos and other reptiles, or exploring the natural landscapes around Santa Barbara."
+    "text": "I’m Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I’m interested in the intersection of ecology, data science, and conservation. When I’m not crunching data in R, I’m taking care of my leachianus geckos, fishing, playing drums, or spending time with my dog Auggie."
   },
   {
     "objectID": "about.html#who-i-am",
     "href": "about.html#who-i-am",
     "title": "About Me",
     "section": "",
-    "text": "I’m Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I’m interested in the intersection of ecology, data science, and conservation. When I’m not crunching data in R, I’m taking care of my leachianus geckos and other reptiles, or exploring the natural landscapes around Santa Barbara."
+    "text": "I’m Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I’m interested in the intersection of ecology, data science, and conservation. When I’m not crunching data in R, I’m taking care of my leachianus geckos, fishing, playing drums, or spending time with my dog Auggie."
   },
   {
     "objectID": "about.html#education",
@@ -164,8 +164,8 @@
     "objectID": "about.html#research-experience",
     "href": "about.html#research-experience",
     "title": "About Me",
-    "section": "Research experience",
-    "text": "Research experience\nI’ve had the opportunity to work in two very different research settings:\nYongjiang Laboratory — Inorganic Silica Synthesis I interned in an inorganic chemistry research lab focused on the synthesis and preparation of oxidized silica materials. This experience gave me hands-on lab skills and an appreciation for materials science at the intersection of chemistry and environmental applications.\nUCSB Oceanography Laboratory I worked as an intern in UCSB’s Oceanography Lab, where I was exposed to marine science research methods, data collection, and the study of ocean ecosystems. This experience deepened my interest in environmental data and coastal ecology."
+    "section": "Research Experience",
+    "text": "Research Experience\nYongjiang Laboratory — Inorganic Silica Synthesis I interned in an inorganic chemistry research lab focused on the synthesis and preparation of oxidized silica materials. This experience gave me hands-on lab skills and an appreciation for materials science at the intersection of chemistry and environmental applications.\nUCSB Oceanography Laboratory I worked as an intern in UCSB’s Oceanography Lab, where I was exposed to marine science research methods, data collection, and the study of ocean ecosystems. This experience deepened my interest in environmental data and coastal ecology."
   },
   {
     "objectID": "about.html#outside-of-academics",
@@ -292,5 +292,68 @@
     "title": "Dimension of Leachies",
     "section": "Contact",
     "text": "Contact\nInterested in leachianus geckos or have questions about the studio?\n\n📧 Email: zhelin5258@gmail.com\n🐙 GitHub: zhelin-qi"
+  },
+  {
+    "objectID": "about.html#my-dog-auggie",
+    "href": "about.html#my-dog-auggie",
+    "title": "About Me",
+    "section": "My Dog — Auggie",
+    "text": "My Dog — Auggie\n\n\n\n\n\n\nAuggie, my 10-month-old Australian Shepherd\n\n\n\n\n\n\n\nAuggie enjoying the outdoors\n\n\n\n\n\nMeet Auggie, my 10-month-old Australian Shepherd. He is endlessly energetic, loves fetch, and joins me on outdoor adventures around Santa Barbara. He is also the subject of my personal data collection project — I’ve been tracking his daily play sessions to understand what makes him happiest!"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About Me",
+    "section": "Hobbies",
+    "text": "Hobbies\n\n\n\n\n\n\nPlaying drums\n\n\n\n\n\n\n\nFishing\n\n\n\n\n\nI play drums and enjoy the focus and rhythm that music brings. I also love fishing — there’s nothing better than being out on the water early in the morning. Both hobbies give me a break from screens and connect me to something more physical and present."
+  },
+  {
+    "objectID": "campus-point/index.html",
+    "href": "campus-point/index.html",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "",
+    "text": "As part of ENVS 153 at UC Santa Barbara, our team conducted an 8-week field study tracking spring seasonal changes in vegetation, pollinators, and bird diversity at Campus Point — a coastal sage scrub and grassland site located next to Campus Point Beach, adjacent to UCSB’s Cheadle Center restoration area.\nTeam: Izzy Ribondo, Yaasiel Leos, and Zhelin Qi\nLocation: UCSB Campus Lagoon, Goleta, CA (34°24’22.7”N, 119°50’39.8”W)"
+  },
+  {
+    "objectID": "campus-point/index.html#overview",
+    "href": "campus-point/index.html#overview",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "",
+    "text": "As part of ENVS 153 at UC Santa Barbara, our team conducted an 8-week field study tracking spring seasonal changes in vegetation, pollinators, and bird diversity at Campus Point — a coastal sage scrub and grassland site located next to Campus Point Beach, adjacent to UCSB’s Cheadle Center restoration area.\nTeam: Izzy Ribondo, Yaasiel Leos, and Zhelin Qi\nLocation: UCSB Campus Lagoon, Goleta, CA (34°24’22.7”N, 119°50’39.8”W)"
+  },
+  {
+    "objectID": "campus-point/index.html#why-campus-point",
+    "href": "campus-point/index.html#why-campus-point",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Why Campus Point?",
+    "text": "Why Campus Point?\nWe chose this site because of its rich ecological diversity and its position at the edge of the lagoon ecosystem. It offered:\n\nHigh abundance of Wild Radish (Raphanus sativus) and Great Brome (Bromus diandrus) for tracking non-native plant changes\nPresence of birds, pollinators, and lagoon wildlife\nProximity to the Cheadle Center coastal restoration area\nA mix of native and non-native species expected to show rapid seasonal change through spring\n\nA native Torrey Pine (Pinus torreyana) — one of North America’s rarest pine species — was also present at the site, supporting lichen growth and hummingbird nesting."
+  },
+  {
+    "objectID": "campus-point/index.html#research-questions",
+    "href": "campus-point/index.html#research-questions",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Research Questions",
+    "text": "Research Questions\nWe investigated three main questions:\nQ1: How does native and non-native vegetation change throughout the season near the lagoon at UCSB?\nQ2: How does the increase in flowering plants affect pollinator abundance and activity near Campus Point?\nQ3: How did bird species richness change throughout spring at Campus Point?"
+  },
+  {
+    "objectID": "campus-point/index.html#methods",
+    "href": "campus-point/index.html#methods",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Methods",
+    "text": "Methods\nEvery Thursday at 1:00 PM over 8 weeks, we visited the same site and recorded:\n\nTemperature, weather, and site conditions\nBird species (identified with Merlin Bird ID)\nPlant species and flower/seed counts (identified with Seek and iNaturalist)\n5-minute pollinator surveys\nPhotos and timelapse documentation of site change"
+  },
+  {
+    "objectID": "campus-point/index.html#results",
+    "href": "campus-point/index.html#results",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Results",
+    "text": "Results\n\nBird Species Richness\nBird species richness increased from 2 species in Week 1 to 10 species by Week 8, with a strong positive trend (R² = 0.8). Seasonal vegetation growth and increased flower availability likely supported greater bird diversity over time.\n\n\nPlant Flower and Seed Counts\nWild Radish dominated early in the season, peaking in Week 4 with over 400 flower/seed heads, before declining sharply. Great Brome increased gradually through mid-season. Invasive species abundance consistently exceeded native species counts, which matched our prediction that non-native annuals would dominate as the season progressed.\n\n\nPollinator Abundance\nPollinator counts followed the flowering pattern closely — abundance increased as Wild Radish bloomed, peaked in Week 7 at 13 pollinators per 5 minutes, then declined in Week 8 as flowers senesced. Pollinators observed included Western Honeybees, cabbage white butterflies, and hummingbirds."
+  },
+  {
+    "objectID": "campus-point/index.html#key-takeaways",
+    "href": "campus-point/index.html#key-takeaways",
+    "title": "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\nThis project gave me a firsthand look at how seasonal change drives cascading ecological effects — from plant phenology to insect activity to bird diversity. Watching the site transform week by week, from lush green vegetation in early spring to dry, seed-heavy grasses by late May, made abstract ecological concepts tangible. It also reinforced the impact of invasive species: Wild Radish and Great Brome consistently dominated the site, shaping the resources available to every other organism present."
   }
 ]

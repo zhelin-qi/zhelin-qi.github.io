@@ -1,0 +1,73 @@
+---
+title: "Spring Seasonal Change at Campus Point — UCSB Lagoon Field Study"
+date: "2026-05-28"
+categories: [field study, ecology, data collection, ENVS 153]
+description: "An 8-week field observation study tracking seasonal changes in plants, pollinators, and bird species richness at UCSB's Campus Point lagoon."
+---
+
+## Overview
+
+As part of ENVS 153 at UC Santa Barbara, our team conducted an 8-week field study tracking spring seasonal changes in vegetation, pollinators, and bird diversity at **Campus Point** — a coastal sage scrub and grassland site located next to Campus Point Beach, adjacent to UCSB's Cheadle Center restoration area.
+
+**Team:** Izzy Ribondo, Yaasiel Leos, and Zhelin Qi
+
+**Location:** UCSB Campus Lagoon, Goleta, CA (34°24'22.7"N, 119°50'39.8"W)
+
+---
+
+## Why Campus Point?
+
+We chose this site because of its rich ecological diversity and its position at the edge of the lagoon ecosystem. It offered:
+
+- High abundance of **Wild Radish** (*Raphanus sativus*) and **Great Brome** (*Bromus diandrus*) for tracking non-native plant changes
+- Presence of birds, pollinators, and lagoon wildlife
+- Proximity to the Cheadle Center coastal restoration area
+- A mix of native and non-native species expected to show rapid seasonal change through spring
+
+A native **Torrey Pine** (*Pinus torreyana*) — one of North America's rarest pine species — was also present at the site, supporting lichen growth and hummingbird nesting.
+
+---
+
+## Research Questions
+
+We investigated three main questions:
+
+**Q1:** How does native and non-native vegetation change throughout the season near the lagoon at UCSB?
+
+**Q2:** How does the increase in flowering plants affect pollinator abundance and activity near Campus Point?
+
+**Q3:** How did bird species richness change throughout spring at Campus Point?
+
+---
+
+## Methods
+
+Every Thursday at 1:00 PM over 8 weeks, we visited the same site and recorded:
+
+- Temperature, weather, and site conditions
+- Bird species (identified with Merlin Bird ID)
+- Plant species and flower/seed counts (identified with Seek and iNaturalist)
+- 5-minute pollinator surveys
+- Photos and timelapse documentation of site change
+
+---
+
+## Results
+
+### Bird Species Richness
+
+Bird species richness increased from **2 species in Week 1 to 10 species by Week 8**, with a strong positive trend (R² = 0.8). Seasonal vegetation growth and increased flower availability likely supported greater bird diversity over time.
+
+### Plant Flower and Seed Counts
+
+Wild Radish dominated early in the season, peaking in **Week 4** with over 400 flower/seed heads, before declining sharply. Great Brome increased gradually through mid-season. Invasive species abundance consistently exceeded native species counts, which matched our prediction that non-native annuals would dominate as the season progressed.
+
+### Pollinator Abundance
+
+Pollinator counts followed the flowering pattern closely — abundance increased as Wild Radish bloomed, peaked in **Week 7 at 13 pollinators per 5 minutes**, then declined in Week 8 as flowers senesced. Pollinators observed included Western Honeybees, cabbage white butterflies, and hummingbirds.
+
+---
+
+## Key Takeaways
+
+This project gave me a firsthand look at how seasonal change drives cascading ecological effects — from plant phenology to insect activity to bird diversity. Watching the site transform week by week, from lush green vegetation in early spring to dry, seed-heavy grasses by late May, made abstract ecological concepts tangible. It also reinforced the impact of invasive species: Wild Radish and Great Brome consistently dominated the site, shaping the resources available to every other organism present.
