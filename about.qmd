@@ -4,7 +4,7 @@ title: "About Me"
 
 ## Who I am
 
-I'm Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I'm interested in the intersection of ecology, data science, and conservation. When I'm not crunching data in R, I'm taking care of my leachianus geckos and other reptiles, or exploring the natural landscapes around Santa Barbara.
+I'm Zhelin Qi, an Environmental Studies student at UC Santa Barbara. I'm interested in the intersection of ecology, data science, and conservation. When I'm not crunching data in R, I'm taking care of my leachianus geckos, fishing, playing drums, or spending time with my dog Auggie.
 
 ---
 
@@ -17,9 +17,7 @@ I've developed skills in environmental data analysis, statistics, and science co
 
 ---
 
-## Research experience
-
-I've had the opportunity to work in two very different research settings:
+## Research Experience
 
 **Yongjiang Laboratory — Inorganic Silica Synthesis**
 I interned in an inorganic chemistry research lab focused on the synthesis and preparation of oxidized silica materials. This experience gave me hands-on lab skills and an appreciation for materials science at the intersection of chemistry and environmental applications.
@@ -29,8 +27,24 @@ I worked as an intern in UCSB's Oceanography Lab, where I was exposed to marine 
 
 ---
 
-## Outside of academics
+## My Dog — Auggie
 
-Beyond research and coursework, I'm passionate about exotic reptile keeping. I founded **Dimension of Leachies**, a hobby studio focused on leachianus geckos (*Rhacodactylus leachianus*) — the world's largest gecko species. Caring for these animals has taught me a lot about biology, animal husbandry, and the responsibility that comes with keeping rare species.
+::: {layout-ncol=2}
+![Auggie, my 10-month-old Australian Shepherd](images/dog1.jpg)
 
-I'm also interested in photography, hiking the Santa Barbara backcountry, and exploring the local food scene.
+![Auggie enjoying the outdoors](images/dog2.jpg)
+:::
+
+Meet **Auggie**, my 10-month-old Australian Shepherd. He is endlessly energetic, loves fetch, and joins me on outdoor adventures around Santa Barbara. He is also the subject of my personal data collection project — I've been tracking his daily play sessions to understand what makes him happiest!
+
+---
+
+## Hobbies
+
+::: {layout-ncol=2}
+![Playing drums](images/medruming.jpg)
+
+![Fishing](images/mefishing.jpg)
+:::
+
+I play **drums** and enjoy the focus and rhythm that music brings. I also love **fishing** — there's nothing better than being out on the water early in the morning. Both hobbies give me a break from screens and connect me to something more physical and present.

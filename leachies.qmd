@@ -82,11 +82,10 @@ The studio currently maintains dozens of individuals across multiple breeding li
 
 The studio is purpose-built for leachianus keeping, with individually labeled enclosures for each animal, climate control, and naturalistic cork tube hides that mimic the hollow trees these geckos use in the wild.
 
-::: {layout-ncol=2}
-![](images/studio1.jpg)
+![](images/studio1.jpg){width=80% fig-align="center"}
 
-![](images/studio2.jpg)
-:::
+![](images/studio2.jpg){width=80% fig-align="center"}
+
 
 *The studio facility, housing over 100 individual enclosures with climate-controlled conditions.*
 
